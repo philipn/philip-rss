@@ -1,0 +1,9 @@
+content     philip-rss    chrome/content/
+overlay chrome://browser/content/browser.xul chrome://philip-rss/content/overlay.xul
+
+locale philip-rss en-US locale/en-US/
+
+skin philip-rss classic/1.0 chrome/skin/
+style chrome://global/content/customizeToolbar.xul chrome://philip-rss/skin/overlay.css
+
+resource philip-rss .

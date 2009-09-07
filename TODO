@@ -1,0 +1,26 @@
+  * set default feed refresh time to 10 minutes 
+  * is feeds-db being populated as the browser naturally refreshes feeds? 
+    * doesn't seem to be?
+  * Get extension developer extension, js debugger, firebug
+  * someone clears and a feed publishes a new unread item
+    in the time interval between last fetch and clear?
+      ---- ERRR--DO THIS:
+        - sequence - each item in feed_items has an id, set according to when the feed was
+                     grabbed, not when it was published or anything.
+        - getFeeds - item_num > bookmark_num
+        - delFeeds - item_num < bookmark_num and other logic
+  * force livemark reload - 'refresh' link
+    * refresh feeds button -- reloadLivemarkFolder()
+    * allow people to set live bookmarks refresh time
+    * always call them "live bookmarks" in the UI
+  * delete livemarks (on hover)
+  * 
+  * Need to make sure that if the feed is broken we still load other feeds.
+  * different rss date formats - dc:date, pubDate
+  *   * pubDate is optional - go w/ grabbed date otherwise somehow
+  * better error handling in general
+  * Atom feeds
+  * Add a 'read' toggle to entries?  Show only unread.  (leave the rest of the clearing / removal code the same)
+  * Why PhilipRSS? I wanted something *insanely* simple.  A single page with my feeds.  FF does the rest.  Everything here, let's me clear it when I want.  I want the reader to not look like shit, too.  And that's it.
+
+    I want to be looking at well layed-out print.

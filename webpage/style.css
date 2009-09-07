@@ -1,0 +1,156 @@
+body {
+  background-color: #d5d5d5;
+}
+
+.header {
+  border-top: 1px solid black;
+  padding-top: 0.8em;
+  font-family: Georgia;
+  border-bottom: 3px solid black;
+  padding-bottom: 0.9em;
+  line-height: 190%;
+}
+
+#title {
+  font-size: 17pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#subtitle {
+  font-size: 17pt;
+}
+
+.headerarea {
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+  margin-bottom: 0.6em;
+}
+
+.subgraphic {
+  width: 100%;
+  margin-top: 28px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 10pt;
+  line-height: 80%;
+  background-image: url(sine.png);
+  background-position: 70 0;
+  height: 155px;
+  background-repeat: repeat-x;
+}
+
+.subgraphic span {
+  margin: -1px;
+}
+
+#col {
+  position: fixed;
+  left: 360px;
+  margin-top: 0.5em;
+}
+
+.page {
+  margin-left: 1em;
+}
+
+#book {
+  background-color: #acdcf5;
+  padding: 1.3em;
+  text-align: left;
+  height: 380px;
+  width: 260px;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: 1px solid #c7c7c7;
+}
+
+#content {
+}
+
+#toc {
+  background-color: #fdc8a9;
+  font-family: Verdana, sans-serif;
+  margin-top: 17px;
+  width: 260px;
+  padding: 1.3em;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: 1px solid #c7c7c7;
+}
+
+#toc ul {
+  list-style: none;
+  margin: 0 0 0 0;
+  display: block;
+  padding: 0;
+}
+
+#toc li {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+li.active a {
+  text-decoration: none; 
+  color: black;
+}
+
+#sidebar {
+  background-color: #d8eb9d;
+  width: 260;
+  height: 380px;
+  padding: 1.3em;
+  margin-top: 0.5em;
+  position: fixed;
+  left: 40px;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: 1px solid #c7c7c7;
+}
+
+a:link {
+  color: #585858;
+}
+
+a:hover {
+  color: black;
+}
+
+dd {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#main {
+  font-family: Verdana, sans-serif;
+}
+
+#pageTitle {
+  font-size: 4em;
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.3em;
+}
+.subtitle {
+  margin-top: -1.5em;
+  color: #444444;
+}
+
+#header {
+  width: 25em;
+  padding: 1em;
+  margin: 1em 0 1em 0;
+  background-color: white;
+}
+
+.content .block {
+  background-color: white;
+  padding: 1em;
+  margin: 2em 1em 2em 0;
+}
+
+.screenshot {
+  border: 1px solid #888888;
+}

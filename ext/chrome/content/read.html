@@ -1,0 +1,99 @@
+<html>
+<head>
+<script type="text/javascript" src="chrome://philip-rss/content/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="chrome://philip-rss/content/read.js"></script>
+<script type="text/javascript" src="chrome://philip-rss/content/date.js"></script>
+<script type="text/javascript" src="chrome://philip-rss/content/utils.js"></script>
+</head>
+<style type="text/css">
+body {
+  margin: 0;
+  background-color: #d5d5d5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#PhilipRSSFeeds {
+  margin: 2em;
+}
+
+a {
+  color: #333399;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #669966;
+}
+a img {
+  border: none;
+}
+
+.PhilipRSSItem {
+}
+
+.PhilipRSSItemTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+  background-color: white;
+  padding: 0.3em 0.5em 0.5em 0.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.PhilipRSSItemTitle > a {
+  text-decoration: none;
+  color: #444444;
+}
+.PhilipRSSItemTitle > a:hover {
+  text-decoration: underline;
+}
+
+.PhilipRSSItemDescription {
+  padding: 1em;
+  font-family: Verdana, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+.clearObserved {
+  text-align: center;
+  margin: 1.5em 2em 1em 2em;
+  font-size: large;
+}
+.clearObserved a {
+  color: white;
+  border: 1px solid #AAAAAA;
+  background-color: #AAAAAA;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.clearObserved a:hover {
+  text-decoration: underline;
+}
+
+#reloadFeeds {
+  text-align: center;
+  margin: 0.5em 0 1em 0;
+  font-size: large;
+}
+#reloadFeeds a {
+  color: white;
+  border: 1px solid #AAAAAA;
+  background-color: #AAAAAA;
+  padding: 0.5em 1em 0.5em 1em;
+}
+#reloadFeeds a:hover {
+  text-decoration: underline;
+}
+.clearBookmarkHere {
+  background-color: black;
+  height: 1em;
+  padding-top: 1em;
+  background-color: #d5d5d5
+}
+</style>
+<body>
+<div id="content">
+<div class="clearObserved"><a href="#" onclick="clearObserved(get_max_tm_id());return false;">I've read these all.</a></div>
+</div>
+</body>
+</html>

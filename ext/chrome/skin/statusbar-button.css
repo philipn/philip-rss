@@ -1,0 +1,5 @@
+/*  skin/statusbar-button.css  */
+
+#philip-rss-statusbar-icon {
+  list-style-image: url("chrome://philip-rss/skin/btn_small.png");
+}

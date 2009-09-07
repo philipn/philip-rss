@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://philip-rss/skin/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://philip-rss/skin/statusbar-button.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://philip-rss/locale/philip-rss.dtd">
+<overlay id="philip-rss-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="philip-rss-strings" src="chrome://philiprss/locale/philip-rss.properties"/>
+  </stringbundleset>
+
+  <statusbar id="status-bar">
+    <statusbarpanel 
+
+      style="border: 1px solid red;"
+      onclick="PhilipRSS.onSBTBClick(event);"
+      mousethrough="never"> <!--  mousethrough is for SB. See http://www.songbirdnest.com/node/2547 --> 
+      <image id="philip-rss-statusbar-icon" tooltiptext="Philip RSS"/>
+    </statusbarpanel>
+  </statusbar>
+</overlay>
