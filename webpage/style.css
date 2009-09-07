@@ -106,8 +106,9 @@ li.active a {
   border-right: 1px solid #c7c7c7;
 }
 
-a:link {
-  color: #585858;
+a:link, a:visited {
+  color: #333399;
+  text-decoration: none;
 }
 
 a:hover {
@@ -128,7 +129,7 @@ dt {
 }
 
 #pageTitle {
-  font-size: 4em;
+  font-size: 3.5em;
   color: #444444;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0.3em;
@@ -136,13 +137,19 @@ dt {
 .subtitle {
   margin-top: -1.5em;
   color: #444444;
+  font-style: italic;
+  font-size: 1.3em;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
-  width: 25em;
-  padding: 1em;
-  margin: 1em 0 1em 0;
+  padding: 0 1em 1em 1em;
+  margin: 1em 1em 1em 0;
   background-color: white;
+}
+#header h1 {
+  padding-top: 0.1em;
 }
 
 .content .block {
@@ -154,3 +161,4 @@ dt {
 .screenshot {
   border: 1px solid #888888;
 }
+
